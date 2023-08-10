@@ -1,1 +1,3 @@
 The goal of this repo is to make a GAN that generates images
+
+I will use pytorch for that extent and make a jupyter notebook for ease of demonstration
