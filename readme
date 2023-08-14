@@ -1,3 +1,12 @@
 The goal of this repo is to make a GAN that generates images
 
 I will use pytorch for that extent and make a jupyter notebook for ease of demonstration
+
+Generator : 
+This Neural Network produces fake data whose goal is to be as close to real data as possible.
+It tries to trick the discriminator into concluding this data is real.
+
+Discriminator:
+This Neural Network inspects the data and tries to determine if it is fake or real.
+
+Both are trained simulaneously by limiting their respective losses and using Binary Cross Enthropy.
